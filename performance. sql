@@ -1,0 +1,11 @@
+CREATE INDEX idx_orders_customers
+ON orders(customer_id);
+
+CREATE INDEX idx_orders_items_orders
+ON orders_items(order_id);
+
+CREATE INDEX idx_orders_items_products
+ON orders_items(product_id);
+
+CREATE INDEX idx_payments_orders
+ON payments(order_id);
