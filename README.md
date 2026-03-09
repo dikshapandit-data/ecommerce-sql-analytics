@@ -19,4 +19,19 @@ Following are the tables used in case study:
 - data.sql -> Sample dataset
 - analysis.sql -> Advanced analytical queries.
 
+## ER Diagram
+
+e_commerce_analytics.png
+
+## Performance optimization
+
+Indexes created to improve performance.
+Key indexed columnms :
+- orders.customer_id
+- orders_items.order_id
+- orders_items.product_id
+- payments.order_id
+- payments.payment_date
+
+
 -- Diksha Pandit
